@@ -175,7 +175,7 @@
                 const rank = document.createElement('td');
                 const score = document.createElement('td');
                 const name = document.createElement('td');
-                rank.innerHTML = `#${i}`;
+                rank.innerHTML = `#${i + 1}`;
                 score.innerHTML = e.score;
                 name.innerHTML = e.name;
                 tr.appendChild(rank);

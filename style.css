@@ -14,8 +14,11 @@ canvas{
 }
 
 table {
+    position: absolute;
+    left: 20px;
+    top: 20px;
     background-color: white;
-    width: 500px;
+    width: 250px;
     border-collapse: collapse;
 }
 
